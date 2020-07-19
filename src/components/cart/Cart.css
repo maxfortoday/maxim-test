@@ -1,0 +1,44 @@
+.cart-container {
+ display: flex;
+ flex-direction: row;
+ width: 370px;
+ margin: 10px;
+ background-color: #fff;
+ border: 1px solid lightgray;
+}
+
+.image-container {
+ display: flex;
+ flex-direction: column;
+ margin: 15px;
+}
+
+.image-container img {
+ border-radius: 50%;
+ margin-bottom: 10px;
+ width: 90%;
+}
+
+.information-container {
+ display: grid;
+ padding-top: 25px;
+ margin-left: 10px;
+ width: 150px;
+ text-align: initial;
+}
+
+.icons-container {
+ display: flex;
+ flex-direction: row;
+ align-items: flex-end;
+ margin-bottom: 15px;
+ margin-right: 10px;
+}
+
+.name {
+ text-transform: capitalize;
+}
+
+.icons-container svg {
+ cursor: pointer;
+}
